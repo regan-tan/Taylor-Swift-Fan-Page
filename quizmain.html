@@ -4,7 +4,7 @@
         <title>Music Website</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="styles.css" rel="stylesheet">
+        <link href="quizstyles.css" rel="stylesheet">
     </head>
     <body>
         <div id="container">
@@ -33,25 +33,37 @@
                   </ul>
                   </div>
                 </li>
-                <li><a href="quizmain.html">Quizzes</a></li>
                 <li><a href="index.html">Back To Main</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
            </nav>
        </div>
-        <div class="">
-            <h1>Feedback Form</h1>
-            <h3>How can we make this website better?</h3>
-            <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" required><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" required><br>
-                <label for="fname">Email:</label><br>
-                <input type="text" id="email" name="email" required><br>
-                <label for="feedback">How Can We Improve?</label><br>
-                <textarea name="message" required autofocus style="width:200px; height:100px;"></textarea><br>
-                <input type="submit" value="Submit">
-                <input type="reset">
-            </form>
+       <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+          <h2 id="question">Question text</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="a_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="b_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="c_text">Question</label>
+            </li>
+   
+            <li>
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="d_text">Question</label>
+            </li>
+          </ul>
         </div>
+        <button id="submit">Submit</button>
+      </div>
+      <!--- <script src="script.js"></script> -->
     </body>
 </html>
