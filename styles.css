@@ -106,5 +106,24 @@
   }
   #container > nav > ul > li > div > ul > li > a {
     padding : 5px !important;
-      color:black !important;
+    color:black !important;
   }
+
+  .feedbackmain {
+    background-color: bisque;
+    border-width: 1em;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 4%;
+    padding-block-end: 1%;
+    padding-block-start: 1%;
+  }
+
+  /*.feedbackright {
+    padding-left: 50%;
+    border-left: 50em;
+    margin-top: 5%;
+    margin-bottom: 20%;
+   }
