@@ -7,6 +7,6 @@ Main objective is to practice creating websites with multiple webpages and nav b
 
 
 Image Credits:
-taylorswift1.jpg - https://24wallpapers.com/wallpapers/taylor-swift
+taylorswift1.jpg, taylorswift2.jpg, taylorswift3.jpg - https://24wallpapers.com/wallpapers/taylor-swift
 
 Individual album cover images - https://archive.org/details/album_covers
